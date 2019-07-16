@@ -3,7 +3,7 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=gluon-wlan-encryption-psk
 PKG_VERSION:=1
 
-include ../gluon.mk
+include $(TOPDIR)/../package/gluon.mk
 
 define Package/gluon-wlan-encryption-psk
   TITLE:=Encrypt wlan using a pre-shared key (psk)
